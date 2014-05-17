@@ -7,7 +7,6 @@ public class HighestValueResult {
 	private List<YearMonthModel> yearMonths = null;
 
 	public HighestValueResult(Long highestValue, List<YearMonthModel> yearMonths) {
-		super();
 		this.highestValue = highestValue;
 		this.yearMonths = yearMonths;
 	}

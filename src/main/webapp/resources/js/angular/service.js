@@ -5,7 +5,7 @@ shareAnalyserServiceModule.factory('shareAnalyserService', function($resource) {
         stockId : '@stockId'
     }, {
         getHighest : {
-            url : "getAllStocks/:stockId/highest",
+            url : "stocks/:stockId/highest",
             method : "GET"
         }
     });
